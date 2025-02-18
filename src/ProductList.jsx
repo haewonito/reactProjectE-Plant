@@ -338,7 +338,7 @@ function ProductList() {
         {plantsArray.map((category, categoryIndex) => {
           return (
             <div key={categoryIndex}>
-              <div className="product-title">{category.category}</div>
+              <div className="product-title">{category}</div>
               <div className="product-list">
                 {category.plants.map((item, index) => {
                   return (
