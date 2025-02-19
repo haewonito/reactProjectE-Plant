@@ -7,7 +7,7 @@ function ProductList() {
   const [showCart, setShowCart] = useState(false);
   const [showPlants, setShowPlants] = useState(false); // State to control the visibility of the About Us page
   const [addButtonEnabled, setAddButtonEnabled] = useState(true);
-
+  // just putting some comments to check something
   const plantsArray = [
     {
       category: "Air Purifying Plants",
