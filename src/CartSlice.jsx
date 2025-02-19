@@ -16,7 +16,7 @@ export const CartSlice = createSlice({
       }
     },
     removeItem: (state, action) => {
-      const { name, image, cost } = action.payload;
+      const { name } = action.payload;
       const existingItem = state.items.find((item) => item.name === name);
       if (existingItem.quantity === 1) {
         state.items = state.items.filter((item) => item.name !== name);
